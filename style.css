@@ -1,0 +1,9 @@
+:root{--primary:#0d6efd}
+body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif}
+.hero{height:60vh;background-size:cover;background-position:center}
+@media(min-width:1200px){.hero{height:75vh}}
+
+/* simple dark mode toggle support */
+body.dark{background:#111;color:#eee}
+
+.card{min-height:80px}
